@@ -1,0 +1,18 @@
+<HPS version="1.1">
+  <Packed_geometry>
+    <Schema>CA</Schema>
+    <Binary_data>
+      <CA version="1.0">
+        <Facets facet_count="12" base64_encoded_bytes="12" color="8421504">BAAAAAACAgIAAQEB</Facets>
+        <Vertices vertex_count="8" base64_encoded_bytes="96">NDNWwrtDqMAd7I7BNDNWwrAfqMCdhZDBNDNWwjqqpsDd6Y7BMzNcwrAfqMCdhZDBNDNWwjCGpsBcg5DBMzNcwjqqpsDd6Y7BMzNcwrtDqMAd7I7BMzNcwjCGpsBcg5DB</Vertices>
+      </CA>
+    </Binary_data>
+  </Packed_geometry>
+  <SignatureHash>5A3FEEC3C65C53FED46CD7CD650598CE16161400</SignatureHash>
+  <Annotations/>
+  <Objects/>
+  <Splines/>
+  <Properties>
+    <Property name="SourceApp" value="DentalDesigner.exe#Unknown branch;Debug build;2015-08-07 14:14:41;NOT FOR CLINICAL USE Dental System 2017-1 (build 2.17.0.0)#2017-01-19 11.35[NS]"/>
+  </Properties>
+</HPS>

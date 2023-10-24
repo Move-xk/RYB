@@ -1,0 +1,17 @@
+<HPS version="1.0">
+  <Packed_geometry>
+    <Schema>CE</Schema>
+    <Binary_data>
+      <CE version="1.0">
+        <Vertices vertex_count="8" base64_encoded_bytes="96" check_value="1731053879">OGdR2FMbSYe2Es8npD1q+mcShUc5CQv6JvmMEB82U+4PbphVzimkgsVwWzE6ImFSaAp207CXt/g1R20iGPxu5yuXKrU1dfu/5vlvAcbY/If9VeWInkcEEmVN4XYeBikR</Vertices>
+        <Facets facet_count="12" base64_encoded_bytes="12" color="8421504">BAAAAAACAgIAAQEB</Facets>
+      </CE>
+    </Binary_data>
+  </Packed_geometry>
+  <Annotations/>
+  <Objects/>
+  <Splines/>
+  <Properties>
+    <Property name="EKID" value="1"/>
+  </Properties>
+</HPS>

@@ -1,0 +1,19 @@
+<HPS version="1.1">
+  <Packed_geometry>
+    <Schema>CA</Schema>
+    <Binary_data>
+      <CA version="1.0">
+        <Facets facet_count="140" base64_encoded_bytes="155" color="8421504">BAAAAAACAAEAAAAAAAABAAAAAAICAAEAAAAAAAECAAAAAAABAgAAAgAAAQAAAgICAAEAAgIAAQECAgIAAAAAAAABAgAAAAABAAACAgICAAEAAgICAgICAAAAAAAAAAECAAAAAQAAAgICAgIAAQACAgICAgICAgc/AAAAAAECAAABAAc5AAAAAQkJAQEAAgICAAECB0cAAAABCQE=</Facets>
+        <Vertices vertex_count="72" base64_encoded_bytes="864">1nmFwiWi6EDSwZbBpK2Gwo0C90CUrZbBK0WHwt6JBkGAjpbB0rKFwm6C30AeaJTBUCaHwk3c8ECvT5TB0ReHwgB2EkHsbJbBQuaDwtwW3EDvbJTBMN2HwiS/BUEuKpTBvDGGwtwTHEHWUZbBOfyDwq3M5UDQxZbB0rKFwo/d1UA4VZvAUCaHwm4350B785rAMN2HwrTsAEF2XZrAdKaHwsAiFEGnAZTB91KDwg1lH0F/SJbB/LSBwiBAAUFlnZbBCDyCwjaE50DYXJTBQuaDwv5x0kB8aJvAdKaHwlFQD0Fbu5nAxZCGwvW9H0H34JPBk9CEwsrPIEGBRJbBKR+Cwtk0GEG9XJbBoYeBwkIsDUHRe5bBEZuCwolE70B7uJbBkfiDwnNc2kDlO5vAVYOFwu9K3UBhK5vAwcGGwkEq7ECb15rAgl6Hwh9/AUEFV5rAxZCGwoXrGkGaOJnAi+aEwqF0JUHg0JPB+xmDwti+I0Gx1ZPBnO+AwuzADUGhE5TBWSaBwqC6/kAoPJTBCDyCwlff3UAeKJvAOouCwuQn5EC5BJvAly+Hwn/UDUESzJnAi+aEwjKiIEE8+JjAfqaBwuoRG0Eg7pPBkfiDwvk6wUDvuPZBVYOFwnUpxEAPvfZBwcGGwsYI00AB0vZBgl6HwsPc6UAn8vZBly+HwsJDAUHjFPdBk0GGwj7HF0H/W5nA+xmDwmnsHkGAC5nAfqaBwns/FkE8bZnAnO+Awn3uCEFCA5rAWSaBwsEV9UBcpZrANp2BwmMN+ECmlJrAOouCwmkGy0C6xvZBk0GGwoE2C0HoMPdBPdSEwvisHEHTJJnAQuqCwpxa0kCYN/lBiA6EwqmEykCPLPlBWEqFwgzdzEDcL/lBFUmGwufC2ECeQPlBfMaGwhUG60BVWvlB86CGwuTB/kAgdvlBPdSEwjocEEGzPvdBd0mDwro1G0FWNZnADAuCwhHGE0EciZnATG6BwhNcCEGzCZrANp2Bwunr3kC+4vZB2SuCwmhF4kACTvlBiuKFwlhWB0GKjPlBd0mDwv2kDkGSOvdBRb6EwlNBC0GTl/lBDAuCwlQ1B0GhJfdBTG6BwquW90B7BfdBUQaCwjcB9kDMaflBdIKDwiEVCkFFlPlBt4OCwjQiBEGEg/lB</Vertices>
+      </CA>
+    </Binary_data>
+  </Packed_geometry>
+  <SignatureHash>0FE705258015A6ED16010AC52D355D4781CF9100</SignatureHash>
+  <Annotations/>
+  <Objects/>
+  <Splines/>
+  <Properties>
+    <Property name="EKID" value="1"/>
+    <Property name="SourceApp" value="DentalDesigner.exe#Unknown branch;Debug build;2015-08-07 14:14:41;NOT FOR CLINICAL USE Dental System 2017-1 (build 2.17.0.0)#2017-01-19 11.35[NS]"/>
+  </Properties>
+</HPS>

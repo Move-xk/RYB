@@ -1,0 +1,17 @@
+<HPS version="1.0">
+  <Packed_geometry>
+    <Schema>CE</Schema>
+    <Binary_data>
+      <CE version="1.0">
+        <Vertices vertex_count="62" base64_encoded_bytes="744" check_value="857721549">v/rNLwIdGzH4A4X3UhfrVcn+UwCHopffUd/7kOaCycEfccBPAzz9d8n+UwCHopffqWiXIWnklFucc/sC037jn3NFqN4YW3cNG2THx2eAdyS+cMGSAT9/7wlQLrdDXkOxexcG+SVvVcofccBPAzz9d0w4Dtk2dUwfvEpG5Y7GogGw9bvaLmHe6hZwznAGpg1nduGTd/aa4RyJirjbyEyxB8VuBYiLmXlt++I0VuD43DXHlPjNiBU6No4Fx70x61Qm6U46HRUsHeqVeThVagdDINlp8pV6qgzs7P2PilMSBGeRXOZ6/zhNWINH2FKUoMifVjrRs4oSb3JXvIBfF7n4SvoR4kzCGMjQP2xRedKUw4CHAsJsQs5N6ehO2fT2QBNN5i0+KEe62GNTSngL6ub9kX+dNPzkvypErF7p5Ki6TGAinVKmYO88bVPSIgYK/o+UZSsj0aoc/JQOUkFSaoM4qABRwZnEoGXCiSM0FsOVj9ddofiLwNl++FPSIgYK/o+UmIk9E65V9cVLRfvhROKY2tLPZ3ftX9N1EmnQAbi2zio5AdHs4ZL4fYCvKZ9B3+mD9kLpByC8vqcOGIc00upK7ICvKZ9B3+mDBasIGa7oVOS88tVV7sQBiYYa7owXps6HvnfRUFMi+FPuKdkGwm8Gg4Ya7owXps6H/NN124d2fIqAsTOvRyrUkGuR2uj9nxKhhuSX+50nrWQ4/oFwTbz9RmuR2uj9nxKhwQ1CmPs3RvMapDWQPhn7nElhuQpVWBn3CvXH2wwKL/A+t8OgkZIBJklhuQpVWBn30U/IFnTa6wJkNo4joUU0B2uVsG5SlQ2gaHRecKHXsQ4yyoYJw7tfEGuVsG5SlQ2gs+LTjZK8wULbifSvpockj8DAEFJDrAsJPgwI47B99/boZhH8715Bd8DAEFJDrAsJ+3s3/IOALvXQ0MQSciajjX4OSkwr+MSJK42FRCgsIp63atmY957/wQal54S9R/Bl</Vertices>
+        <Facets facet_count="120" base64_encoded_bytes="120" color="8421504">BAAAAAEAAQAAAQEAAAICAgAAAQAAAgICAAABAAACAgIAAAEAAAICAgAAAQAAAgICAAABAAACAAECAAIAAAACAQIAAQIAAAACAgABAgAAAAICAAECAAAAAgIAAQIAAAACAgABAgAAAAICAAECAAAAAgICAAEAAQEB</Facets>
+      </CE>
+    </Binary_data>
+  </Packed_geometry>
+  <Annotations/>
+  <Objects/>
+  <Splines/>
+  <Properties>
+    <Property name="EKID" value="1"/>
+  </Properties>
+</HPS>

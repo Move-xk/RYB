@@ -1,0 +1,19 @@
+<HPS version="1.1">
+  <Packed_geometry>
+    <Schema>CA</Schema>
+    <Binary_data>
+      <CA version="1.0">
+        <Facets facet_count="64" base64_encoded_bytes="115" color="8421504">BAAAAAEAAAABAQEAAAAAAAEAAAAAAAACAQEAAAAAAgABAAACAAABAAcZAAAABxIAAAABAAABBxcAAAAHFgAAAAABBxsAAAABCQEAByAAAAABAgMDCQcYAAAAAgEDCQkJBx0AAAAHIQAAAAEJAQkJCQkJCQ==</Facets>
+        <Vertices vertex_count="34" base64_encoded_bytes="408">AAAgQNyvosG3j/9CAAAgwNyvosG3j/9CAAAgQFwWocH4kf9CK3MRQMm8osFOEQBDAAAgwFwWocH4kf9CK3MRQEojocFvEgBD3c0AQGXIosE/UwBDK3MRwMm8osFOEQBD3c0AQOUuocFfVABD8ZrcP4TSosG9jABDiqSJv7vhosEv4wBDK3MRwEojocFvEgBDemy0P4BBocETvgBD8ZrcPwQ5ocHdjQBDemy0PwDbosHzvABD5Rq7vpHposGwDwFDemy0vwDbosHzvABD3c0AwGXIosE/UwBDiqSJvzxIocFP5ABDiqSJPzxIocFP5ABD1sE5P5zmosHm/gBDkYQTqo7qosFQFQFD1sE5v5zmosHm/gBDemy0v4BBocETvgBD3c0AwOUuocFfVABD1sE5vx1NocEHAAFD1sE5Px1NocEHAAFDiqSJP7vhosEv4wBD5Rq7PpHposGwDwFD5Rq7vhFQocHREAFD8ZrcvwQ5ocHdjQBD8Zrcv4TSosG9jABD+4sTqg9RocFwFgFD5Rq7PhFQocHREAFD</Vertices>
+      </CA>
+    </Binary_data>
+  </Packed_geometry>
+  <SignatureHash>ADF2F10C6CDD8CC200BC19C56897FCEE8F8AE5AF</SignatureHash>
+  <Annotations/>
+  <Objects/>
+  <Splines/>
+  <Properties>
+    <Property name="EKID" value="1"/>
+    <Property name="SourceApp" value="DentalDesigner.exe#Unknown branch;Debug build;2015-08-07 14:14:41;NOT FOR CLINICAL USE Dental System 2017-1 (build 2.17.0.0)#2017-01-19 11.35[NS]"/>
+  </Properties>
+</HPS>

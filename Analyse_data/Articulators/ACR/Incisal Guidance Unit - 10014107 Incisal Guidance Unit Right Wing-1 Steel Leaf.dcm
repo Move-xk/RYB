@@ -1,0 +1,18 @@
+<HPS version="1.1">
+  <Packed_geometry>
+    <Schema>CA</Schema>
+    <Binary_data>
+      <CA version="1.0">
+        <Facets facet_count="24" base64_encoded_bytes="77" color="8421504">BAADAAMAAwkAAwADCQkAAwADCQkAAwADCQkAAwADCQkAAwADCQkAAwADCQkAAwMJCQkAAwMJAAMDCQADAwkAAwMJAAMDCQADCQADCQk=</Facets>
+        <Vertices vertex_count="26" base64_encoded_bytes="312">JVR4QQtEp8KxswZDMMtaQdhYo8IpkQFDsCpaQXpFo8L0oAFDJFR4Qf4Wp8LwswJDDINZQTIxo8J0sAFDZGRbQUxro8IZgQFDaNRYQQgco8KnvwFDMPZbQc98o8LHcAFDuGJXQRvvosIb3QFDfIBcQV6No8I1YAFD2NZVQdi+osI2+QFDHANdQfeco8JnTwFDHDJUQWmLosLgEwJDFH1dQXaro8JbPgFD8HVSQf1UosIBLQJDgJldQdiuo8JkOgFDzKNQQb4bosKERAJDmFZxQfIZpsIwGgBDSL1OQd7focJWWgJD/MNMQZKhocJjbgJDnLlKQQ9hocKZgAJDCM9IQWIkocKUjwJDZEBHQTD0oML3tAJDIGhFQfK6oMLo3QJDJFREQXPEoML+xQZDJFREQX2ZoMLV9QJD</Vertices>
+      </CA>
+    </Binary_data>
+  </Packed_geometry>
+  <SignatureHash>C36CFE942FE53BF91622B599AF9E5C5487A814F5</SignatureHash>
+  <Annotations/>
+  <Objects/>
+  <Splines/>
+  <Properties>
+    <Property name="SourceApp" value="ShapeDesigner.exe#2013/1 (build 1.1.16.0)#2013-10-28 14.49+DentalDesigner.exe#Unknown branch;Debug build;2015-08-07 14:14:41;NOT FOR CLINICAL USE Dental System 2017-1 (build 2.17.0.0)#2017-01-19 11.35[NS]"/>
+  </Properties>
+</HPS>

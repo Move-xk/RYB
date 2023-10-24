@@ -1,0 +1,19 @@
+<HPS version="1.1">
+  <Packed_geometry>
+    <Schema>CA</Schema>
+    <Binary_data>
+      <CA version="1.0">
+        <Facets facet_count="250" base64_encoded_bytes="363" color="8421504">BAAAAAACAAACAAAAAAEAAAEAAAIAAAABAgABAAAAAAACAAEAAAEAAAAAAAACAgACAAACAQECAAAAAAAAAgAAAAACAAAAAgICAAEAAQAAAgABAAICAgACAAAAAQACBz0AAAAAAAEAAAIAAAECAgAAAAIAAAACAAc+AAAAAgkBCQABAgAAAAICAAACAgIAAgdRAAAAAAAAAAEBAAIAAQAAAQAAAgIHVgAAAAdJAAAAAgAAAAIJAgABAAAABzcAAAAAAQdXAAAAAQkCAAAAAAIAAgdoAAAAB2MAAAADAAICAgIAAAECAAAAAwIDAgECAAEAAQIAAgkAAwMJB24AAAACAAACAAEAAQECAAEDAwkJAAAAAQEHcgAAAAICB3gAAAADCQkHcwAAAAEJAgIAAAEAAAd7AAAAB3MAAAADCQkCAgd4AAAAAQIJCQMDCQd3AAAAAgd+AAAAAQICAgd0AAAAAwkJAgkJCQkJCQkB</Facets>
+        <Vertices vertex_count="127" base64_encoded_bytes="1524">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</Vertices>
+      </CA>
+    </Binary_data>
+  </Packed_geometry>
+  <SignatureHash>47983E070757CE527A915F9F1B2C6710321E2DC5</SignatureHash>
+  <Annotations/>
+  <Objects/>
+  <Splines/>
+  <Properties>
+    <Property name="EKID" value="1"/>
+    <Property name="SourceApp" value="DentalDesigner.exe#Unknown branch;Debug build;2015-08-07 14:14:41;NOT FOR CLINICAL USE Dental System 2017-1 (build 2.17.0.0)#2017-01-19 11.35[NS]"/>
+  </Properties>
+</HPS>

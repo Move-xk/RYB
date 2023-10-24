@@ -1,0 +1,17 @@
+<HPS version="1.0">
+  <Packed_geometry>
+    <Schema>CE</Schema>
+    <Binary_data>
+      <CE version="1.0">
+        <Vertices vertex_count="40" base64_encoded_bytes="480" check_value="987851191">McwQYckhIediPO/0TfLDMCaJ/iHB7PrazBu+Ven6t6Jy4N4YeOS9bjhEFdXwgbyRaKquBevdaOreWmgHb3/t0AuxmK3FhbAThFMKlPbuamHz/dWoJ/wRzKRsqIqI1j14+wikQ9BPodfPhZvqPDspAjmdWO3pxjEkigI3E7n/9gKR8NEgCpXO6t31JjTvNniTeHfcYjwVeaSMOq8mhJNkxIh0HKpyKjOsl0WCl7PjotBdqTvjbxyOIy8eo/fjY7DPN9p7ZX7RXNkdcsFvCIzCoQ+/HF9qbYyvdf4VzdRLwqeAmksQMaD0C4/z3s8VPBP+qeaj9lqmCU8stgmlCxNWfQJN7SmUvPqYxe5hSakma3yjQWm4fPzCFLNOQ2pEpRJE9DCQuO7QLvex3ygoQVXQcsxk7YINeW+YUcfjYffLEpHIWA+LEcki9GKcCCO+Z1yGjDU/B4HtYfhlPzUON+jNQ63l5FJflMt91FAWSask/taddc94+yGVQuLGZhqj2tAPhZmtUaWc9Nv91czNvJDZg4GnVWj47dpMCd/l2CZQxgTjPt72vVF7daFpyyrCuhXMzplWNj0+OBV+MhRgwCzR8r2jalx1Fnis8ah1Kbk4l0nHyeSkoeoMvW0ZhZ1nFV/P</Vertices>
+        <Facets facet_count="76" base64_encoded_bytes="91" color="8421504">BAAAAAECAAAAAAACAAACAgcIAAAAAAACBwYAAAACCQkBAgAAAQAAAgICAAABAAACAgIAAAEAAAICAgAAAQAAAgICAAABAAACAgABAAEAAAIAAQIHJwAAAAEJAQ==</Facets>
+      </CE>
+    </Binary_data>
+  </Packed_geometry>
+  <Annotations/>
+  <Objects/>
+  <Splines/>
+  <Properties>
+    <Property name="EKID" value="1"/>
+  </Properties>
+</HPS>

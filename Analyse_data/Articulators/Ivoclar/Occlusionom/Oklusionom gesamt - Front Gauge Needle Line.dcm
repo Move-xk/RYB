@@ -1,0 +1,26 @@
+<HPS version="1.1">
+  <Packed_geometry>
+    <Schema>CA</Schema>
+    <Binary_data>
+      <CA version="1.0">
+        <Facets facet_count="3" base64_encoded_bytes="9" color="14409696">BAMAAwkAAwkJ</Facets>
+        <Vertices vertex_count="5" base64_encoded_bytes="60">+cZMPeCTpUHMzJZCBqlsu+CTpUHMzJZCpcpMPf7/H8DNzJZC9c5Mvf//H8DNzJZCodJMveCTpUHMzJZC</Vertices>
+      </CA>
+    </Binary_data>
+  </Packed_geometry>
+  <Annotations/>
+  <Objects>
+    <Object name="Object" type="TSysObjectStringProperties">
+      <Property name="Visible" value="True"/>
+      <Property name="Color" value="32768"/>
+      <Property name="Accuracy" value="-1"/>
+      <Object name="Properties" type="TStringListXML">
+        <String value="SourceApp=ShapeDesigner.exe#1.1.15.0 (build 1.1.15.0)#2013-02-01 11.41"/>
+      </Object>
+    </Object>
+  </Objects>
+  <Splines/>
+  <Properties>
+    <Property name="SourceApp" value="ShapeDesigner.exe#1.1.15.0 (build 1.1.15.0)#2013-02-01 11.41"/>
+  </Properties>
+</HPS>

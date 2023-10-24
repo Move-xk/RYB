@@ -1,0 +1,18 @@
+<HPS version="1.1">
+  <Packed_geometry>
+    <Schema>CA</Schema>
+    <Binary_data>
+      <CA version="1.0">
+        <Facets facet_count="80" base64_encoded_bytes="144" color="8421504">BAAAAAAAAAAAAAEHCQAAAAAAAQAHDAAAAAIAAAAHCgAAAAIAAAIABxIAAAADCQcRAAAAAgABAgMJCQABBxQAAAABCQAAAwMJAAAABxkAAAADCQAAAgAABxwAAAADCQkCAgABAwMJAAECAQAAAAchAAAAAwkHIAAAAAEJCQkJCQABAQIAAAABAQABAQICAgIB</Facets>
+        <Vertices vertex_count="42" base64_encoded_bytes="504">hutNQg4Kc0GCfAfBhet7Qg4Kc0GCfAfBhutNQgulXEGn+gfBhes5QohHcUHZBV7Ahet7QgulXEGn+gfBN3hJQr+ZXEFN+QXB42s6QsircUEum5LAhes5QtHibkFmElVAhet7QsVda0GvOlVBhes5QoXiWkFv/l/A42s6QsVGW0F5l5PAN3hJQsL+ckEoewXBhes5Qs99WEHQGVNAhethQsVda0GvOlVBhet7QsL4VEGKvFRBkOY7Qv6lW0HLZrXACj5FQm14XEH9DgDBkOY7QgELckGAarTAl2k6QtrwV0HqmJtAoqlbQt1oa0GGQlNBhethQsL4VEGKvFRBCj5FQnDdckGvIf/Al2k6Qt1VbkE1lZxAoqlbQtoDVUFgxFJBnUc+Qr3kVkHPyvpAi0g+Qm1gckHjvtLAi0g+Qmr7W0Euu9PAQXNBQsFCXEFJD+3AtOA7Ql5nV0FzacxAMI9VQt+Ja0FzZk1BMI9VQtwkVUFN6ExBwKJFQqwAVkGI4iVBQXNBQsOnckH+EuzAtOA7QmHMbUG+Zc1AqMJPQvhaVUE/TUNBmmhKQtikVUHGLzZBL49BQi9sVkFQzBJBqMJPQvu/a0Fly0NBwKJFQq5lbEGuYCZBL49BQjLRbEF1ShNBnUc+QsBJbUEax/tAmmhKQtsJbEHrrTZB</Vertices>
+      </CA>
+    </Binary_data>
+  </Packed_geometry>
+  <SignatureHash>962EE8CECDE39E1D6707A8B52A99C5FA051C9837</SignatureHash>
+  <Annotations/>
+  <Objects/>
+  <Splines/>
+  <Properties>
+    <Property name="SourceApp" value="DentalDesigner.exe#Unknown branch;Debug build;2015-08-07 14:14:41;NOT FOR CLINICAL USE Dental System 2017-1 (build 2.17.0.0)#2017-01-19 11.35[NS]"/>
+  </Properties>
+</HPS>
