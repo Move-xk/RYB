@@ -16,18 +16,38 @@ save_file = '.dcm'
 def extract_file(path):
     for hospital_name in os.listdir(path):
         folder_path = os.path.join(path, hospital_name)
-        for filename in os.listdir(folder_path):  # D:\Work\scripts\data\可恩口腔医院(和谐广场分院)
+        for filename in os.listdir(folder_path):
             file_path = os.path.join(folder_path, filename)
-            if zipfile.is_zipfile(file_path):
-                extract_zipfile(file_path, folder_path)
-            if rarfile.is_rarfile(file_path):
-                extract_rarfile(file_path, folder_path)
-            if py7zr.is_7zfile(file_path):
-                extract_py7zipfile(file_path, folder_path)
+            error_file_path = "E:/异常数据"
+            if not os.path.exists(error_file_path):
+                os.makedirs(error_file_path)
             else:
-                print(f"{file_path} 解压文件完成")
-    print('所有文件解压完成')
+                extract_error(file_path, folder_path,error_file_path)
     return 1
+
+
+def extract_error(file_path, folder_path, error_file_path):
+    if zipfile.is_zipfile(file_path):
+        try:
+            extract_zipfile(file_path, folder_path)
+            print('DCM数据解压完成', file_path)
+        except:
+            shutil.move(file_path, error_file_path)
+            print('DCM数据异常', file_path)
+    if rarfile.is_rarfile(file_path):
+        try:
+            extract_rarfile(file_path, folder_path)
+            print('DCM数据解压完成', file_path)
+        except:
+            shutil.move(file_path, error_file_path)
+            print('DCM数据异常', file_path)
+    if py7zr.is_7zfile(file_path):
+        try:
+            extract_py7zipfile(file_path, folder_path)
+            print('DCM数据解压完成', file_path)
+        except:
+            shutil.move(file_path, error_file_path)
+            print('DCM数据异常', file_path)
 
 
 def extract_zipfile(file_path, folder_path):
@@ -103,7 +123,7 @@ def move_file(path):
         file_path = os.path.join(path, file)
         if os.path.isfile(file_path):
             try:
-                New_path = re.search(r'E:\\.*?\\.*?\\.*?\\', file_path).group(0)
+                New_path = re.search(r'E:\\.*?\\.*?\\.*?\\', file_path).group(0)  # 这里也要改一下文件的路径
                 shutil.move(file_path, New_path)
                 print('移动完成', New_path)
             except:
@@ -148,4 +168,3 @@ if __name__ == '__main__':
                 delete_empty_folders(data_path)
                 translate_file(data_path)
                 print('程序已完成')
-
