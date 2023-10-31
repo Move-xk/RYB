@@ -7,23 +7,22 @@ import rarfile
 import py7zr
 from translate import Translator
 
-data_path = r'E:\DCM数据'
-save_file = '.dcm'
+data_path = r'E:\DCM数据'  # DCM save path,the name must same like 'DCM数据'
+save_file = '.dcm'  # remove without save_file's type
+error_file = "E:/异常数据"  # save error files path
 
 
 # 遍历文件夹中的每个文件
 
-def extract_file(path):
+def extract_file(path, error_file_path):
     for hospital_name in os.listdir(path):
         folder_path = os.path.join(path, hospital_name)
         for filename in os.listdir(folder_path):
             file_path = os.path.join(folder_path, filename)
-            error_file_path = "E:/异常数据"
             if not os.path.exists(error_file_path):
                 os.makedirs(error_file_path)
             else:
-                extract_error(file_path, folder_path,error_file_path)
-    return 1
+                extract_error(file_path, folder_path, error_file_path)
 
 
 def extract_error(file_path, folder_path, error_file_path):
@@ -112,10 +111,12 @@ def remove_file(folder_path, file_extension):
             else:
                 file_path = os.path.join(root, file)
                 # 执行删除操作
-                os.remove(file_path)
-                print('删除完成', file_path)
+                try:
+                    os.remove(file_path)
+                    print('删除完成', file_path)
+                except:
+                    print('数据异常，无法删除', file_path)
     print('非DCM数据删除完成')
-    return 1
 
 
 def move_file(path):
@@ -125,13 +126,10 @@ def move_file(path):
             try:
                 New_path = re.search(r'E:\\.*?\\.*?\\.*?\\', file_path).group(0)  # 这里也要改一下文件的路径
                 shutil.move(file_path, New_path)
-                print('移动完成', New_path)
             except:
-                print('新地址与原地址相同')
+                print('新地址与原地址相同', file_path)
         else:
-            move_file(file_path)
-    print('移动DCM数据成功')
-    return 1
+            move_file(file_path)  # 递归查找文件
 
 
 def delete_empty_folders(path):
@@ -143,9 +141,7 @@ def delete_empty_folders(path):
             delete_empty_folders(folder_path)  # 递归调用函数，进入子文件夹
             if not os.listdir(folder_path):  # 如果子文件夹为空
                 os.rmdir(folder_path)  # 删除空文件夹
-                print('删除文件夹成功', folder_path)
-    print('目录中的空文件夹删除完成')
-    return 1
+                print('删除空文件夹成功', folder_path)
 
 
 def translate_file(path):
@@ -162,9 +158,9 @@ def translate_file(path):
 
 
 if __name__ == '__main__':
-    if extract_file(data_path) == 1:
-        if remove_file(data_path, save_file) == 1:
-            if move_file(data_path) == 1:
-                delete_empty_folders(data_path)
-                translate_file(data_path)
-                print('程序已完成')
+    extract_file(data_path, error_file)
+    remove_file(data_path, save_file)
+    move_file(data_path)
+    delete_empty_folders(data_path)
+    translate_file(data_path)
+print('DCM转换已完成，请处理异常数据')
